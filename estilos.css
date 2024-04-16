@@ -1,0 +1,112 @@
+body{
+    background-color: #464646;
+    font-family: "Rubik", sans-serif;
+}
+
+h1{
+    color: #F44336;
+}
+
+h2{
+    color: #CFD8DC
+}
+
+h3{
+    color: #CFD8DC;
+}
+
+p{
+    color: white;
+}
+
+#title-name{
+    color: #F44336;
+    font-size: 36px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+#subtitle-name{
+    color: #CFD8DC;
+    font-size: 28px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+#title-job{
+    color: #CFD8DC;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+
+}
+
+
+.personas-container {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    margin: 0 auto; /* Centra el contenedor en la página si no ocupa el ancho completo */
+    max-width: 1200px; /* Puedes ajustar este valor según el diseño deseado */
+}
+
+.persona {
+    text-align: center; /* Centra el texto y las imágenes dentro de cada persona */
+    flex: 1; /* Asegura que cada 'persona' tome el mismo espacio */
+    padding: 20px; /* Agrega algo de espacio alrededor de cada 'persona' para evitar que estén muy juntas */
+}
+
+.persona img {
+    width: 300px; /* Especifica el ancho de la imagen si es necesario */
+    height: 300px;
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.616);
+}
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.about-left {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.about-image {
+    width: 250px;
+    height: auto;
+}
+
+.about-right {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección a columna para los cuadrantes */
+    gap: 20px;
+}
+
+.info-row {
+    display: flex;
+    gap: 20px;
+}
+
+.info-block {
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    flex-grow: 1; /* Permite que los bloques se expandan para llenar el espacio disponible */
+}
+
+.info-block i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+
+
+
+
