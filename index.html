@@ -15,52 +15,39 @@
 
 <body>
 
+    <!-- INDICE -->
+
     <nav>
         <p id="indice">INDICE</p>
         <ul>
             <li><a href="#inicio">Inicio</a></li>
-            <br>
-            <li><strong>Federico Rey</strong></li>
-            <ul>
-                <li><a href="#sobre-mi-fede">Sobre mi</a></li>
-                <li><a href="#desarrollo-profesional-fede">Desarrollo Profesional</a></li>
-                <li><a href="#experiencia-laboral-fede">Experiencia Laboral</a></li>
-                <li><a href="#que-es-lo-que-hago-fede">¿Qué es lo que hago?</a></li>
-                <li><a href="#habilidades-e-intereses-fede">Habilidades e Intereses</a></li>
-                <li><a href="#formacion-academica-certificaciones-fede">Formación académica y Certificaciones</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-            <br>
-            <li><strong>Franco Sánchez Agüero</strong></li>
-            <ul>
-
-                <li><a href="#sobre-mi-franco">Sobre mi</a></li>
-                <li><a href="#desarrollo-profesional-franco">Desarrollo Profesional</a></li>
-                <li><a href="#experiencia-laboral-franco">Experiencia Laboral</a></li>
-                <li><a href="#que-es-lo-que-hago-franco">¿Qué es lo que hago?</a></li>
-                <li><a href="#habilidades-e-intereses-franco">Habilidades e Intereses</a></li>
-                <li><a href="#formacion-academica-certificaciones-franco">Formación académica y Certificaciones</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-
+            <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+            <li><a href="#desarrollo-profesional">Desarrollo Profesional</a></li>
+            <li><a href="#experiencia-laboral">Experiencia Laboral</a></li>
+            <li><a href="#que-es-lo-que-hacemos">¿Qué es lo que hago?</a></li>
+            <li><a href="#habilidades-e-intereses">Habilidades e Intereses</a></li>
+            <li><a href="#formacion-academica-certificaciones">Formación académica y Certificaciones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
     <hr>
 
-    <h2 id="inicio">¡Hola! nosotros somos</h2>
+    <!-- INICIO -->
+
+    <p id="inicio"><em>¡Hola! Nosotros somos</em></p>
 
     <div class="personas-container">
         <div class="persona">
             <p id="title-name">Federico Rey</p>
             <p id="title-job">Fullstack Developer</p>
             <div>
-                <a href="#sobre-mi-fede"><img src="/multimedia/imagenes/cv-Fede.jpg"></a>
+                <a href="#sobre-nosotros"><img src="/multimedia/imagenes/cv-Fede.jpg"></a>
             </div>
             <br>
-            <a href="" download="CV-Federico Rey">Descargar CV</a>
-            <br>
-            <a href="#sobre-mi-fede">Conocer sobre mi</a>
+            <div class="boton-descargar">
+                <a href="" download="CV-Franco Sanchez Agüero">Descargar CV</a>
+            </div>
         </div>
 
         <div class="persona">
@@ -70,57 +57,125 @@
                 <a href="#sobre-mi-franco"><img src="/multimedia/imagenes/cv-Franco.jpg"></a>
             </div>
             <br>
-            <a href="/multimedia/CV - Franco Sánchez Agüero.pdf" download="CV-Franco Sanchez Agüero">Descargar CV</a>
-            <br>
-            <a href="#sobre-mi-franco">Conocer sobre mi</a>
+            <div class="boton-descargar">
+                <a href="/multimedia/CV - Franco Sánchez Agüero.pdf" download="CV-Franco Sanchez Agüero">Descargar CV</a>
+            </div>
+            
         </div>
 
     </div>
 
     <hr>
 
-    <div class="about-section">
-        <div class="about-left">
-            <h1 id="sobre-mi-fede">Sobre mí</h1>
-            <img src="/multimedia/imagenes/sobre-mi.jpg" class="about-image">
-            <p id="subtitle-name">Federico Rey</p>
-        </div>
-        <div class="about-right">
-            <div class="info-row">
-                <div class="info-block">
-                    <i class="fa-solid fa-address-card"></i>
-                    <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+    <!-- SOBRE NOSOTROS-->
+
+    <h1 id="sobre-nosotros">Sobre nosotros</h1>
+
+    <div class="sobre-nosotros">
+        <div class="sobre-nosotros-fede sobre-nosotros-half">
+            <div class="about-left">
+                <img src="/multimedia/imagenes/sobre-mi.jpg" class="about-image">
+                <p id="subtitle-name">Federico</p>
+            </div>
+            <div class="about-right">
+                <div class="info-row">
+                    <div class="info-block">
+                        <i class="fa-solid fa-address-card"></i>
+                        <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                    <div class="info-block">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
                 </div>
-                <div class="info-block">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <div class="info-row">
+                    <div class="info-block">
+                        <i class="fa-solid fa-couch"></i>
+                        <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                    <div class="info-block">
+                        <i class="fa-solid fa-code"></i>
+                        <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
                 </div>
             </div>
-            <div class="info-row">
-                <div class="info-block">
-                    <i class="fa-solid fa-couch"></i>
-                    <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="sobre-nosotros-franco sobre-nosotros-half">
+            <div class="about-left">
+                <img src="/multimedia/imagenes/sobre-mi-franco-img.jpg" class="about-image">
+                <p id="subtitle-name">Franco</p>
+            </div>
+            <div class="about-right">
+                <div class="info-row">
+                    <div class="info-block">
+                        <i class="fa-solid fa-address-card"></i>
+                        <p id="parrafo-sobre-mi">Tengo 23 años <br>07/07/2000</p>
+                    </div>
+                    <div class="info-block">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p id="parrafo-sobre-mi">Vivo en Banfield, Buenos Aires.</p>
+                    </div>
                 </div>
-                <div class="info-block">
-                    <i class="fa-solid fa-code"></i>
-                    <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <div class="info-row">
+                    <div class="info-block">
+                        <i class="fa-solid fa-couch"></i>
+                        <p id="parrafo-sobre-mi">En mi tiempo libre me gusta conocer nuevos lugares.</p>
+                    </div>
+                    <div class="info-block">
+                        <i class="fa-solid fa-code"></i>
+                        <p id="parrafo-sobre-mi">Tengo un gran interés por la tecnología y por seguir expandiendo mi
+                            conocimiento.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+
     <hr>
 
-    <h1 id="desarrollo-profesional-fede">Desarrollo Profesional</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate consequatur officiis ad placeat dolorem natus dolore fugit corrupti exercitationem quidem laudantium est perspiciatis sunt, error aliquid quod saepe magni.</p>
+    <!-- DESARROLLO PROFESIONAL -->
 
-    <div>
-        <img src="/multimedia/imagenes/work.png" width="200px">
+    <h1 id="desarrollo-profesional">Desarrollo Profesional</h1>
+
+    <div class="desarrollo-profesional-container">
+        <div class="desarrollo-profesional">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium est vero iusto numquam delectus
+                officiis excepturi ipsum atque pariatur. Quam, soluta iure aliquam modi temporibus nobis laudantium
+                earum reiciendis fugiat!</p>
+
+            <div class="desarrollo-profesional-img">
+                <img src="/multimedia/imagenes/work.png">
+            </div>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="desarrollo-profesional">
+            <p>Soy estudiante de la Licenciatura en Sistemas y actualmente me desempeño como Project Manager. Tengo un
+                gran
+                interés por la tecnología y el aprendizaje continuo para mejorar y desarrollarme tanto personal como
+                profesionalmente. Motivado a enfrentarme a nuevos desafíos para poder crecer en el campo de la gestión
+                de
+                proyectos.</p>
+
+            <div>
+                <img src="/multimedia/imagenes/work.png">
+            </div>
+        </div>
+
     </div>
 
+
     <hr>
 
-    <h1 id="experiencia-laboral-fede">Experiencia Laboral</h1>
+    <!-- EXPERIENCIA LABORAL -->
+
+    <h1 id="experiencia-laboral">Experiencia Laboral</h1>
 
     <dl>
         <dt><strong>Puesto</strong></dt>
@@ -138,7 +193,7 @@
 
     <hr>
 
-    <h1 id="que-es-lo-que-hago-fede">¿Qué es lo que hago?</h1>
+    <h1 id="que-es-lo-que-hacemos">¿Qué es lo que hacemos?</h1>
     <div>
         <i class="fa-solid fa-comments"></i>
         <h2>Titulo tarea</h2>
@@ -165,7 +220,7 @@
 
     <hr>
 
-    <h1 id="habilidades-e-intereses-fede">Habilidades</h1>
+    <h1 id="habilidades-e-intereses">Habilidades</h1>
     <div>
         <ul>
             <li>
@@ -200,7 +255,7 @@
 
     <hr>
 
-    <h1 id="formacion-academica-certificaciones-fede">Formación académica</h1>
+    <h1 id="formacion-academica-certificaciones">Formación académica</h1>
 
     <dl>
         <dt>Estudio</dt>
@@ -234,38 +289,6 @@
         <a href=""><i class="fa-solid fa-file-arrow-down"></i></a>
     </div>
 
-
-    <hr>
-
-    <div class="about-section">
-        <div class="about-left">
-            <h1 id="sobre-mi-franco">Sobre mí</h1>
-            <img src="/multimedia/imagenes/sobre-mi-franco-img.jpg" class="about-image">
-            <p id="subtitle-name">Franco Sánchez Agüero</p>
-        </div>
-        <div class="about-right">
-            <div class="info-row">
-                <div class="info-block">
-                    <i class="fa-solid fa-address-card"></i>
-                    <p id="parrafo-sobre-mi">Tengo 23 años <br>07/07/2000</p>
-                </div>
-                <div class="info-block">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p id="parrafo-sobre-mi">Vivo en Banfield, Buenos Aires.</p>
-                </div>
-            </div>
-            <div class="info-row">
-                <div class="info-block">
-                    <i class="fa-solid fa-couch"></i>
-                    <p id="parrafo-sobre-mi">En mi tiempo libre me gusta conocer nuevos lugares.</p>
-                </div>
-                <div class="info-block">
-                    <i class="fa-solid fa-code"></i>
-                    <p id="parrafo-sobre-mi">Tengo un gran interés por la tecnología y por seguir expandiendo mi conocimiento.</p>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <hr>
 
