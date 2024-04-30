@@ -24,7 +24,7 @@ p {
 }
 
 nav {
-    background-color: #CFD8DC;
+    background-color: #a883a2;
     font-size: 20px;
 }
 
@@ -55,7 +55,7 @@ nav {
 
 .personas-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     max-width: 1200px;
@@ -72,6 +72,15 @@ nav {
     height: 400px;
     border-radius: 80px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.616);
+}
+
+.boton-descargar {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .sobre-nosotros-container {
@@ -154,15 +163,6 @@ nav {
     height: 200px;
 }
 
-.boton-descargar {
-    background-color: red;
-    width: 200px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .experiencia-laboral-container {
     color: white;
     display: flex;
@@ -214,6 +214,53 @@ nav {
 .certificaciones img {
     width: 150px;
     height: 120px;
+}
+
+.habilidades-container {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+.habilidades {
+    color: white;
+    margin: 10px;
+    width: 50%;
+   
+}
+
+.habilidades-container img {
+    width: 500px;
+}
+
+progress {
+    width: 100%; /* Asegura que el progreso tome todo el espacio horizontal disponible */
+    height: 20px; /* Aumenta el alto de la barra de progreso */
+    color: lightskyblue; /* Cambia el color de la barra de progreso a rojo */
+    background-color: #ccc; /* Color de fondo de la barra cuando no está llena */
+}
+
+progress::-webkit-progress-bar {
+    background-color: white;
+}
+
+progress::-webkit-progress-value {
+    background-color: lightskyblue;
+}
+
+.intereses-container {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+.intereses {
+    color: white;
+    margin: 10px;
+    width: 50%;
+   
 }
 
 .contacto-container {
