@@ -1,44 +1,54 @@
-body{
+body {
     background-color: #321D2E;
     font-family: "Rubik", sans-serif;
+    font-size: 24px;
 }
 
-h1{
+h1 {
     color: #EE5F38;
     text-align: center;
     font-size: 44px;
 }
 
-#inicio{
+#inicio {
     color: #EE5F38;
     font-size: 24px;
 }
 
-h3{
+h3 {
     color: #CFD8DC;
 }
 
-p{
+p {
     color: white;
 }
 
-#parrafo-sobre-mi{
+nav {
+    background-color: #CFD8DC;
+    font-size: 20px;
+}
+
+#indice {
     color: black;
 }
 
-#title-name{
+#parrafo-sobre-mi {
+    color: black;
+}
+
+#title-name {
     color: white;
     font-size: 46px;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
 }
 
-#subtitle-name{
+#subtitle-name {
     color: white;
     font-size: 28px;
 }
 
-#title-job{
+#title-job {
     color: lightgray;
     font-size: 32px;
 }
@@ -46,9 +56,10 @@ p{
 .personas-container {
     display: flex;
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;
     margin: 0 auto;
     max-width: 1200px;
+    align-items: stretch
 }
 
 .persona {
@@ -63,76 +74,69 @@ p{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.616);
 }
 
-.sobre-nosotros {
+.sobre-nosotros-container {
+    font-size: 20px;
     display: flex;
     align-items: center;
     margin-bottom: 50px;
     gap: 50px;
+    padding: 25px;
 }
 
-.sobre-nosotros-half {
+.sobre-nosotros-alineacion {
     flex-basis: 50%;
 }
 
 .divider {
     border-left: 2px;
-    height: 100%;
+    width: 4px;
+    height: 400px;
     margin: 10px;
+    align-items: stretch;
+    background-color: rgb(138, 131, 131);
 }
 
-
-.about-left {
+.sobre-nosotros-encabezado {
     text-align: center;
 }
 
-.about-image {
+.sobre-nosotros-encabezado img {
     width: 250px;
-    height: auto;
     border-radius: 100px;
-    border-width: 21px;
-    border-color: #EE5F38;
-
 }
 
-.about-right {
+.sobre-nosotros-cuadro {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.info-row {
+.info-fila {
     display: flex;
     gap: 25px;
 }
 
-.info-block {
-    background-color: #f0f0f0;
+.info-bloque {
+    background-color: white;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 50%;
     height: 100px;
     border-radius: 10px;
 }
 
-.info-block i {
-    font-size: 24px;
+.info-bloque i {
     margin-bottom: 10px;
+    font-size: 22px;
     display: block;
-}
-
-nav{
-    background-color: #CFD8DC;
-    font-size: 20px;
-}
-
-#indice{
-    color:black;
 }
 
 .desarrollo-profesional-container {
     display: flex;
     align-items: center;
+    font-size: 24px;
+    align-items: stretch;
 }
 
 .desarrollo-profesional {
@@ -150,13 +154,85 @@ nav{
     height: 200px;
 }
 
-
-
-.boton-descargar{
+.boton-descargar {
     background-color: red;
     width: 200px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.experiencia-laboral-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.experiencia-laboral {
+    padding: 10px;
+    width: 50%;
+}
+
+.experiencia-laboral-container img {
+    width: 250px;
+    margin: 50px;
+}
+
+.formacion-academica-container {
+    display: flex;
+    align-items: center;
+    color: #CFD8DC;
+}
+
+.formacion-academica {
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    display: flex;
+}
+
+.certificaciones-container {
+    display: flex;
+    align-items: stretch;
+}
+
+.certificaciones {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.certificaciones>div {
+    margin: 70px;
+    text-align: center;
+}
+
+.certificaciones img {
+    width: 150px;
+    height: 120px;
+}
+
+.contacto-container {
+    display: flex;
+    font-size: 24px;
+    align-items: stretch;
+}
+
+.contacto {
+    margin: 10px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contacto i {
+    font-size: 45px;
+    margin: 20px;
+    color: white
+
 }
