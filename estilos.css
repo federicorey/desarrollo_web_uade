@@ -20,7 +20,7 @@ h1 {
     font-size: 48px;
 }
 
-#inicio p{
+#saludo{
     color: #ff8b4d;
     font-size: 28px;
     padding-left: 5px;
@@ -45,6 +45,7 @@ nav {
     padding: 10px 0;
     margin-top: 20px;
     width: 100%;
+    border-radius: 50px;
 }
 
 nav ul {
@@ -94,6 +95,8 @@ nav ul li a:hover {
 #title-job {
     color: lightgray;
     font-size: 36px;
+    font-weight: 30px;
+
 }
 
 .personas-container {
@@ -190,7 +193,6 @@ nav ul li a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 50%;
-    height: 100px;
     border-radius: 10px;
 }
 
@@ -215,6 +217,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     background-color: #61b0f01f;
+    border-radius: 50px;
 }
 
 .desarrollo-profesional img {
@@ -254,9 +257,11 @@ nav ul li a:hover {
     margin: 10px;
     width: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background-color: #61b0f01f;
+    border-radius: 50px;
 }
 
 .que-es-lo-que-hacemos-box {
@@ -297,28 +302,30 @@ nav ul li a:hover {
 
 .certificaciones-container {
     display: flex;
+    padding: 10px;
 }
 
 .certificaciones {
     display: flex;
-    flex-direction: row;
     width: 50%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .certificaciones>div {
-    margin: 70px;
+    margin: 40px;
     text-align: center;
 }
 
 .certificaciones img {
-    width: 150px;
-    height: 120px;
+    width: 450px;
+    height: 300px;
 }
 
 .habilidades-container {
     display: flex;
     margin: 0 auto;
-    
+    text-align: center;
 }
 
 .habilidades {
@@ -328,8 +335,8 @@ nav ul li a:hover {
 }
 
 .habilidades-container img {
-    width: 500px;
-    margin-left: 300px;
+    width: 250px;
+    height: 250px;
 }
 
 progress {
@@ -352,20 +359,22 @@ progress::-webkit-progress-value {
     justify-content: space-around;
     margin: 0 auto;
     width: 80%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     align-items: center;
     text-align: center;
 }
 
 .intereses-container img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
 }
 
 .intereses {
     color: white;
     text-align: left;
+    margin: 20px;
+    padding: 20px;
 }
 
 ul {
