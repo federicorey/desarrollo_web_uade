@@ -1,3 +1,7 @@
+html{
+    scroll-behavior:smooth;
+}
+
 body {
     background: #0f0c29;
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
@@ -5,6 +9,10 @@ body {
     font-family: "Rubik", sans-serif;
     font-size: 24px;
 }
+
+.bold {
+    font-weight: bold;
+  }  
 
 h1 {
     color: #ff8b4d;
@@ -15,6 +23,7 @@ h1 {
 #inicio {
     color: #ff8b4d;
     font-size: 28px;
+    padding-left: 5px;
 }
 
 h3 {
@@ -25,17 +34,17 @@ p {
     color: white;
 }
 
+#indice {
+    margin: 0 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
 nav {
     background-color: #61b0f01f;
     padding: 10px 0;
     margin-top: 20px;
     width: 100%;
-}
-
-nav h2 {
-    margin: 0 20px;
-    color: white;
-    margin-bottom: 20px;
 }
 
 nav ul {
@@ -107,14 +116,30 @@ nav ul li a:hover {
     border-radius: 80px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.616);
 }
-
+ 
 .boton-descargar {
     display: inline-block;
     padding: 10px 20px;
-    margin-top: 10px;
-    background-color: #61b0f0c0;
-    border-radius: 5px;
+    font-size: 22px;
     font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+ 
+.boton-descargar:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+ 
+.boton-descargar:active {
+    background-color: #004080;
+    border-color: #004080;
 }
 
 .sobre-nosotros-container {
@@ -132,7 +157,7 @@ nav ul li a:hover {
 
 .divider {
     border-left: 2px;
-    width: 4px;
+    width: 2px;
     height: 400px;
     margin: 10px;
     align-items: stretch;
@@ -201,8 +226,8 @@ nav ul li a:hover {
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    max-width: 65%;
+    align-items: center;
+    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -213,7 +238,7 @@ nav ul li a:hover {
 
 .experiencia-laboral-container img {
     width: 450px;
-    margin: 50px;
+    margin-right: 20px;
 }
 
 .que-es-lo-que-hacemos-container {
@@ -240,10 +265,16 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 100%;
 }
 
 .que-es-lo-que-hacemos-box i {
     color: white;
+    margin-bottom: 10px;
+}
+
+.que-es-lo-que-hacemos-box h2 {
+    margin-top: 10px;
 }
 
 .formacion-academica-container {
@@ -257,6 +288,7 @@ nav ul li a:hover {
     margin: 10px;
     width: 50%;
     display: flex;
+    justify-content: center;
 }
 
 .formacion-academica-container img {
@@ -286,17 +318,18 @@ nav ul li a:hover {
 .habilidades-container {
     display: flex;
     margin: 0 auto;
-    width: 50%;
+    
 }
 
 .habilidades {
     color: white;
-    margin: 10px;
+    padding: 40px;
     width: 50%;
 }
 
 .habilidades-container img {
     width: 500px;
+    margin-left: 300px;
 }
 
 progress {
@@ -316,16 +349,31 @@ progress::-webkit-progress-value {
 
 .intereses-container {
     display: flex;
+    justify-content: space-around;
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+}
 
+.intereses-container img {
+    width: 400px;
+    height: 400px;
 }
 
 .intereses {
     color: white;
-    margin: 10px;
-    width: 50%;
+    text-align: left;
+}
 
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 .contacto-container {
