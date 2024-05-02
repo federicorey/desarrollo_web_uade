@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="/multimedia/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="../multimedia/fontawesome-free-6.5.2-web/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -16,55 +16,71 @@
 <body>
 
     <!-- INDICE -->
+    <div class="contenedor-header">
+        <header>
 
-    <nav>
-        <h2>Portfolio</h2>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
-            <li><a href="#desarrollo-profesional">Desarrollo profesional</a></li>
-            <li><a href="#experiencia-laboral">Experiencia laboral</a></li>
-            <li><a href="#que-es-lo-que-hacemos">¿Qué es lo que hacemos?</a></li>
-            <li><a href="#habilidades-e-intereses">Habilidades e intereses</a></li>
-            <li><a href="#formacion-academica-certificaciones">Formación académica y certificaciones</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+        <nav>
+            <h2 id="indice">INDICE</h2>
+            <ul>
+                <li><a href="#inicio" >Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+                <li><a href="#desarrollo-profesional">Desarrollo Profesional</a></li>
+                <li><a href="#experiencia-laboral">Experiencia Laboral</a></li>
+                <li><a href="#que-es-lo-que-hacemos">¿Qué es lo que hago?</a></li>
+                <li><a href="#habilidades-e-intereses">Habilidades e Intereses</a></li>
+                <li><a href="#formacion-academica-certificaciones">Formación académica y Certificaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
+</header>
 
     <hr>
 
     <!-- INICIO -->
+    <section id="inicio" class="inicio">
+    <p id="inicio"><em>¡Hola! Nosotros somos</em></p>
 
-    <p id="inicio"><em> <strong>¡Hola!</strong> Nosotros somos</em></p>
+        <div class="personas-container">
+            <div class="persona">
+                <div>
+                    <img src="/desarrollo_web_uade/multimedia/imagenes/cv_Fede.png" alt="">
+                </div>
+                <h1 id="title-name">Federico Rey</h1>
+                <h2 id="title-job">Fullstack Developer</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-skype"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-solid fa-rss"></i></a>
+                </div>
+                <br>
+                <div class="boton-descargar">
+                    <a href="/multimedia/CV - Franco Sánchez Agüero.pdf" download="CV-Franco Sanchez Agüero">Descargar CV </a>
+                </div>
+            </div>
 
-    <div class="personas-container">
-        <div class="persona">
-            <p id="title-name">Federico Rey</p>
-            <p id="title-job">Fullstack Developer</p>
-            <div>
-                <a href="#sobre-nosotros"><img src="/multimedia/imagenes/cv-Fede.jpg"></a>
-            </div>
-            <br>
-            <div class="boton-descargar">
-                <a href="" download="CV-Franco Sanchez Agüero">Descargar CV</a>
-            </div>
+                <div class="persona">
+                    <div>
+                        <img src="/desarrollo_web_uade/multimedia/imagenes/cv-Franco.jpg" alt="">
+                    </div>
+                    <h1 id="title-name">Franco Sánchez Agüero</h1>
+                    <h2 id="title-job">Project Manager</h2>
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-skype"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-solid fa-rss"></i></a>
+                    </div>
+                    <br>
+                    <div class="boton-descargar">
+                        <a href="/multimedia/CV - Franco Sánchez Agüero.pdf" download="CV-Franco Sanchez Agüero">Descargar CV </a>
+                    </div>
+                </div>
         </div>
+    </section>
 
-        <div class="persona">
-            <p id="title-name">Franco Sánchez Agüero</p>
-            <p id="title-job">Project Manager</p>
-            <div>
-                <a href="#sobre-nosotros"><img src="/multimedia/imagenes/cv-Franco.jpg"></a>
-            </div>
-            <br>
-            <div class="boton-descargar">
-                <a href="/multimedia/CV - Franco Sánchez Agüero.pdf" download="CV-Franco Sanchez Agüero">Descargar
-                    CV</a>
-            </div>
-
-        </div>
-
-    </div>
 
     <hr>
 
@@ -82,21 +98,21 @@
                 <div class="info-fila">
                     <div class="info-bloque">
                         <i class="fa-solid fa-address-card"></i>
-                        <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <p id="parrafo-sobre-mi">25 años <br>11/02/1999</p>
                     </div>
                     <div class="info-bloque">
                         <i class="fa-solid fa-location-dot"></i>
-                        <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <p id="parrafo-sobre-mi">Vivo en Flores, Capital Federal</p>
                     </div>
                 </div>
                 <div class="info-fila">
                     <div class="info-bloque">
                         <i class="fa-solid fa-couch"></i>
-                        <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <p id="parrafo-sobre-mi">Me gusta mirar series y películas</p>
                     </div>
                     <div class="info-bloque">
                         <i class="fa-solid fa-code"></i>
-                        <p id="parrafo-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <p id="parrafo-sobre-mi">Me interesa la programación y actualmente me encuentro aprendiendo sobre inteligencia artificial</p>
                     </div>
                 </div>
             </div>
@@ -144,9 +160,9 @@
 
     <div class="desarrollo-profesional-container">
         <div class="desarrollo-profesional">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium est vero iusto numquam delectus
-                officiis excepturi ipsum atque pariatur. Quam, soluta iure aliquam modi temporibus nobis laudantium
-                earum reiciendis fugiat!</p>
+            <p>Soy un desarrollador de software con experiencia en desarrollo backend y frontend, con habilidades en Java,
+                Python y frameworks como Django, Angular y Spring. Tambien tengo conocimientos en HTML, Javascript y CSS.
+                Actualmente me encuentro trabajando como desarrollador de automatización de procesos.</p>
 
             <div class="desarrollo-profesional-img">
                 <img src="/multimedia/imagenes/desarrollo-profesional-1.png">
@@ -181,21 +197,15 @@
     <div class="experiencia-laboral-container">
         <div class="experiencia-laboral">
             <dl>
-                <dt><strong>Puesto</strong></dt>
-                <dd>Empresa</dd>
-                <dd>20XX - Actualidad</dd>
+                <dt><strong>Desarrollador de software</strong></dt>
+                <dd>Finnegans S.A.</dd>
+                <dd>2022 - Actualidad</dd>
 
                 <br>
 
-                <dt><strong>Puesto</strong></dt>
-                <dd>Empresa</dd>
-                <dd>20XX - 20XX</dd>
-
-                <br>
-
-                <dt><strong>Puesto</strong></dt>
-                <dd>Empresa</dd>
-                <dd>20XX - 20XX</dd>
+                <dt><strong>Programador</strong></dt>
+                <dd>SoyBot</dd>
+                <dd>2021-2022</dd>
             </dl>
         </div>
 
@@ -233,29 +243,34 @@
 
     <div class="que-es-lo-que-hacemos-container">
         <div class="que-es-lo-que-hacemos">
-            <div class="que-es-lo-que-hacemos-box">
-                <i class="fa-solid fa-comments"></i>
-                <h2>Titulo tarea</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem obcaecati</p>
-            </div>
-
-            <div class="que-es-lo-que-hacemos-box">
-                <i class="fa-solid fa-thumbtack"></i>
-                <h2>Titulo tarea</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem obcaecati</p>
-            </div>
 
             <div class="que-es-lo-que-hacemos-box">
                 <i class="fa-solid fa-gears"></i>
-                <h2>Titulo tarea</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem obcaecati</p>
+                <h2>Desarrollo Frontend</h2>
+                <p>Experiencia en el desarrollo de interfaces de usuario interactivas y atractivas utilizando tecnologías como HTML, CSS y JavaScript</p>    
             </div>
 
             <div class="que-es-lo-que-hacemos-box">
                 <i class="fa-solid fa-code"></i>
-                <h2>Titulo tarea</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem obcaecati</p>
+                <h2>Desarrollo Backend</h2>
+                <p>Experiencia en el desarrollo de lógica de servidor y bases de datos utilizando tecnologías como Node.js, Python, SQL y NoSQL</p>    
             </div>
+
+            <div class="que-es-lo-que-hacemos-box">
+                <i class="fa-solid fa-comments"></i>
+                <h2>Automatización de Procesos</h2>
+                <p>Creo scripts de automatización de procesos repetitivos, obteniendo reportes a partir de un resultado esperado, y un resultado obtenido.
+                    Uso de librerias como Selenium, Playwright, BS4
+                </p>
+            </div>
+
+            <div class="que-es-lo-que-hacemos-box">
+                <i class="fa-solid fa-thumbtack"></i>
+                <h2>Desarrollo de APIs</h2>
+                <p>Desarrollo de APIs personalizadas, en diferentes lenguajes de programación, que facilitan la intercomunicación y operabilidad del cliente con su sistema</p>
+            </div>
+
+
         </div>
 
         <div class="que-es-lo-que-hacemos">
@@ -295,15 +310,15 @@
     <div class="formacion-academica-container">
         <div class="formacion-academica">
             <dl>
-                <dt><strong>Estudio</strong></dt>
-                <dd>Fecha</dd>
-                <dd>Cursando el 4to año con XX/40 materias aprobadas.</dd>
-
+                <dt><strong>Licenciatura en Gestión de Tecnología de la Información</strong></dt>
+                <dd>Universidad Argentina de la Empresa (UADE)</dd>
+                <dd>2019 - Actualidad</dd>
+                <dd>Actualmente cursando el 4to</dd>
                 <br>
 
-                <dt><strong>Estudio</strong></dt>
-                <dd>Fecha</dd>
-                <dd>Cursando el 4to año con XX/40 materias aprobadas.</dd>
+                <dt><strong>Bachiller en Economía y Administración</strong></dd>
+                <dd>Colegio Marianista</dt>
+                <dd>2011 - 2016</dd>
             </dl>
         </div>
 
@@ -336,21 +351,21 @@
             <div>
                 <a href="/multimedia/imagenes/certificado-ejemplo.jpg" target="_blank">
                     <img src="/multimedia/imagenes/certificado-ejemplo.jpg">
-                    <h3>Titulo Certificado 1</h3>
+                    <h3>First Certificate</h3>
                 </a>
             </div>
 
             <div>
                 <a href="/multimedia/imagenes/certificado-ejemplo.jpg" target="_blank">
                     <img src="/multimedia/imagenes/certificado-ejemplo.jpg">
-                    <h3>Titulo Certificado 2</h3>
+                    <h3>CCNA - curso en redes</h3>
                 </a>
             </div>
 
             <div>
                 <a href="/multimedia/imagenes/certificado-ejemplo.jpg" target="_blank">
                     <img src="/multimedia/imagenes/certificado-ejemplo.jpg">
-                    <h3>Titulo Certificado 3</h3>
+                    <h3>Diplomatura en Java</h3>
                 </a>
             </div>
         </div>
@@ -389,23 +404,23 @@
 
     <div class="habilidades-container">
 
-        <div class="habilidades">
+        <div class="habilidades tecnológicas">
             <ul>
                 <li>
-                    Item 1:
+                    Python:
                     <progress value="100" max="100"></progress>
                 </li>
                 <li>
-                    Item 2:
-                    <progress value="50" max="100"></progress>
+                    Java:
+                    <progress value="75" max="100"></progress>
                 </li>
                 <li>
-                    Item 3:
+                    SQL:
                     <progress value="90" max="100"></progress>
                 </li>
                 <li>
-                    Item 4:
-                    <progress value="25" max="100"></progress>
+                    Item Javascript:
+                    <progress value="50" max="100"></progress>
                 </li>
             </ul>
 
@@ -447,11 +462,10 @@
     <div class="intereses-container">
         <div class="intereses">
             <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-                <li>Item 4</li>
-                <li>Item 5</li>
+                <li>Artificial Inteligence</li>
+                <li>Analisis de datos</li>
+                <li>Automation</li>
+                <li>Seguridad de la Información</li>
             </ul>
         </div>
 
@@ -477,8 +491,8 @@
     <div class="contacto-container">
         <div class="contacto">
             <p>Federico Rey</p>
-            <p>Correo electrónico</p>
-            <p>Celular</p>
+            <p>federicogabrielrey@gmail.com</p>
+            <p>+54 1111111111</p>
 
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-linkedin"></i>
