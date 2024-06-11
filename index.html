@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="../multimedia/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="multimedia/fontawesome-free-6.5.2-web/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -19,7 +19,7 @@
 
     <div class="contenedor-header">
         <header>
-            <h2 id="indice">Portfolio</h2>
+            <h1>Portfolio</h1>
             <nav>
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
@@ -39,28 +39,30 @@
     <!-- INICIO -->
 
     <section id="inicio" class="inicio">
-        <p id="saludo"><em>¡<span class="bold">Hola</span>! Nosotros somos</em></p>
+        <p id="saludo"><em>¡<span>Hola</span>! Nosotros somos</em></p>
 
         <div class="personas-container">
             <div class="persona">
                 <div>
-                    <a href="#sobre-nosotros"><img src="/multimedia/imagenes/cv-Fede.jpeg"></a>
+                    <a href="#sobre-nosotros"><img src="multimedia/imagenes/cv-Fede.jpeg"
+                            alt="imagen de Federico Rey"></a>
                 </div>
-                <h1 id="title-name">Federico Rey</h1>
+                <p id="title-name">Federico Rey</p>
                 <p id="title-job">Fullstack Developer</p>
                 <div class="boton-descargar">
-                    <a href="/multimedia/Federico Rey_CV.pdf" download="CV-Federico Rey">Descargar CV </a>
+                    <a href="multimedia/Federico Rey_CV.pdf" download="CV-Federico Rey">Descargar CV </a>
                 </div>
             </div>
 
             <div class="persona">
                 <div>
-                    <a href="#sobre-nosotros"><img src="/multimedia/imagenes/cv-Franco.jpg"></a>
+                    <a href="#sobre-nosotros"><img src="multimedia/imagenes/cv-Franco.jpg"
+                            alt="imagen de Franco Sánchez Agüero"></a>
                 </div>
-                <h1 id="title-name">Franco Sánchez Agüero</h1>
+                <p id="title-name">Franco Sánchez Agüero</p>
                 <p id="title-job">Project Manager</p>
                 <div class="boton-descargar">
-                    <a href="/multimedia/CV - Franco Sánchez Agüero.pdf" download="CV-Franco Sanchez Agüero">Descargar
+                    <a href="multimedia/CV - Franco Sánchez Agüero.pdf" download="CV-Franco Sanchez Agüero">Descargar
                         CV </a>
                 </div>
             </div>
@@ -72,76 +74,43 @@
 
     <!-- SOBRE NOSOTROS-->
 
-    <h1 id="sobre-nosotros">Sobre nosotros</h1>
+    <h2>Sobre Nosotros</h2>
 
-    <div class="sobre-nosotros-container">
-        <div class="sobre-nosotros-alineacion">
-            <div class="sobre-nosotros-encabezado">
-                <img src="/multimedia/imagenes/sobre-mi-Fede.jpeg">
-                <p id="subtitle-name">Federico</p>
-            </div>
-            <div class="sobre-nosotros-cuadro">
-                <div class="info-fila">
-                    <div class="info-bloque">
-                        <i class="fa-solid fa-address-card"></i>
-                        <p id="parrafo-sobre-mi">25 años <br>11/02/1999</p>
-                    </div>
-                    <div class="info-bloque">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p id="parrafo-sobre-mi">Vivo en Flores, Capital Federal.</p>
-                    </div>
-                </div>
-                <div class="info-fila">
-                    <div class="info-bloque">
-                        <i class="fa-solid fa-couch"></i>
-                        <p id="parrafo-sobre-mi">Me gusta mirar series y películas.</p>
-                    </div>
-                    <div class="info-bloque">
-                        <i class="fa-solid fa-code"></i>
-                        <p id="parrafo-sobre-mi">Me encuentro aprendiendo sobre inteligencia artificial.</p>
-                    </div>
+    <section id="sobre-nosotros" class="sobre-nosotros-container">
+        <div class="sobre-nosotros-bloque">
+            <div class="sobre-nosotros">
+                <ul>
+                    <li><i class="fas fa-users"></i> Tengo 25 años.</li>
+                    <li><i class="fas fa-lightbulb"></i> Vivo en Flores, Capital Federal.</li>
+                    <li><i class="fas fa-chart-line"></i> En mi tiempo libre me gusta mirar series y películas.</li>
+                    <li><i class="fas fa-heart"></i> Me encuentro aprendiendo sobre Inteligencia Artificial.</li>
+                </ul>
+                <div class="sobre-nosotros-imagen">
+                    <img src="multimedia/imagenes/sobre-mi-Fede.jpeg" alt="Imagen representativa de Federico">
                 </div>
             </div>
         </div>
 
-        <div class="divider"></div>
-
-        <div class="sobre-nosotros-alineacion">
-            <div class="sobre-nosotros-encabezado">
-                <img src="/multimedia/imagenes/sobre-mi-franco-img.jpg">
-                <p id="subtitle-name">Franco</p>
-            </div>
-            <div class="sobre-nosotros-cuadro">
-                <div class="info-fila">
-                    <div class="info-bloque">
-                        <i class="fa-solid fa-address-card"></i>
-                        <p id="parrafo-sobre-mi">Tengo 23 años <br>07/07/2000</p>
-                    </div>
-                    <div class="info-bloque">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p id="parrafo-sobre-mi">Vivo en Banfield, Buenos Aires.</p>
-                    </div>
-                </div>
-                <div class="info-fila">
-                    <div class="info-bloque">
-                        <i class="fa-solid fa-couch"></i>
-                        <p id="parrafo-sobre-mi">En mi tiempo libre me gusta conocer nuevos lugares.</p>
-                    </div>
-                    <div class="info-bloque">
-                        <i class="fa-solid fa-code"></i>
-                        <p id="parrafo-sobre-mi">Busco aprender nuevas tecnologías.</p>
-                    </div>
+        <div class="sobre-nosotros-bloque">
+            <div class="sobre-nosotros">
+                <ul>
+                    <li><i class="fas fa-users"></i> Tengo 23 años.</li>
+                    <li><i class="fas fa-lightbulb"></i> Vivo en Banfield, Buenos Aires.</li>
+                    <li><i class="fas fa-chart-line"></i> En mi tiempo libre me gusta conocer nuevos lugares.</li>
+                    <li><i class="fas fa-heart"></i> Busco aprender nuevas tecnologías y mejorar continuamente.</li>
+                </ul>
+                <div class="sobre-nosotros-imagen">
+                    <img src="multimedia/imagenes/sobre-mi-franco-img.jpg" alt="Imagen representativa de Franco">
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
 
     <hr>
 
     <!-- DESARROLLO PROFESIONAL -->
 
-    <h1 id="desarrollo-profesional">Desarrollo Profesional</h1>
+    <h2 id="desarrollo-profesional">Desarrollo Profesional</h2>
 
     <div class="desarrollo-profesional-container">
         <div class="desarrollo-profesional">
@@ -152,7 +121,7 @@
                 Actualmente me encuentro trabajando como desarrollador de automatización de procesos.</p>
 
             <div class="desarrollo-profesional-img">
-                <img src="/multimedia/imagenes/desarrollo-profesional-1.png">
+                <img src="multimedia/imagenes/desarrollo-profesional-1.png" alt="desarrollo profesional">
             </div>
 
         </div>
@@ -170,7 +139,7 @@
                 proyectos.</p>
 
             <div>
-                <img src="/multimedia/imagenes/desarrollo-profesional-2.png">
+                <img src="multimedia/imagenes/desarrollo-profesional-2.png" alt="desarrollo profesional ilustración">
             </div>
         </div>
 
@@ -181,7 +150,7 @@
 
     <!-- EXPERIENCIA LABORAL -->
 
-    <h1 id="experiencia-laboral">Experiencia Laboral</h1>
+    <h2 id="experiencia-laboral">Experiencia Laboral</h2>
 
     <div class="experiencia-laboral-container">
         <div class="experiencia-laboral">
@@ -199,7 +168,7 @@
         </div>
 
         <div>
-            <img src="/multimedia/imagenes/cv.jpeg">
+            <img src="multimedia/imagenes/cv.jpeg" alt="experiencia laboral ilustracion">
         </div>
 
         <div class="experiencia-laboral">
@@ -228,28 +197,28 @@
 
     <!-- QUE ES LO QUE HACEMOS -->
 
-    <h1 id="que-es-lo-que-hacemos">¿Qué es lo que hacemos?</h1>
+    <h2 id="que-es-lo-que-hacemos">¿Qué es lo que hacemos?</h2>
 
     <div class="que-es-lo-que-hacemos-container">
         <div class="que-es-lo-que-hacemos">
 
             <div class="que-es-lo-que-hacemos-box">
                 <i class="fa-solid fa-gears"></i>
-                <h2>Desarrollo Frontend</h2>
+                <h3>Desarrollo Frontend</h3>
                 <p>Experiencia en el desarrollo de interfaces de usuario interactivas y atractivas utilizando
                     tecnologías como HTML, CSS y JavaScript</p>
             </div>
 
             <div class="que-es-lo-que-hacemos-box">
                 <i class="fa-solid fa-code"></i>
-                <h2>Desarrollo Backend</h2>
+                <h3>Desarrollo Backend</h3>
                 <p>Experiencia en el desarrollo de lógica de servidor y bases de datos utilizando tecnologías como
                     Node.js, Python, SQL y NoSQL</p>
             </div>
 
             <div class="que-es-lo-que-hacemos-box">
                 <i class="fa-solid fa-comments"></i>
-                <h2>Automatización de Procesos</h2>
+                <h3>Automatización de Procesos</h3>
                 <p>Creo scripts de automatización de procesos repetitivos, obteniendo reportes a partir de un
                     resultado esperado, y un resultado obtenido.
                     Uso de librerias como Selenium, Playwright, BS4
@@ -258,7 +227,7 @@
 
             <div class="que-es-lo-que-hacemos-box">
                 <i class="fa-solid fa-thumbtack"></i>
-                <h2>Desarrollo de APIs</h2>
+                <h3>Desarrollo de APIs</h3>
                 <p>Desarrollo de APIs personalizadas, en diferentes lenguajes de programación, que facilitan la
                     intercomunicación y operabilidad del cliente con su sistema</p>
             </div>
@@ -268,27 +237,27 @@
         <div class="que-es-lo-que-hacemos">
             <div class="que-es-lo-que-hacemos-box">
                 <i class="fa-solid fa-comments"></i>
-                <h2>Gestión de equipos</h2>
+                <h3>Gestión de equipos</h3>
                 <p>Manejo de equipos de tecnología, facilitando la comunicación entre las distintas áreas.</p>
             </div>
 
             <div class="que-es-lo-que-hacemos-box">
                 <i class="fa-solid fa-thumbtack"></i>
-                <h2>Planificación de proyectos</h2>
+                <h3>Planificación de proyectos</h3>
                 <p>Garantizar el cumplimiento de tareas y plazos con un enfoque en el seguimiento continuo del proyecto.
                 </p>
             </div>
 
             <div class="que-es-lo-que-hacemos-box">
                 <i class="fa-solid fa-gears"></i>
-                <h2>Elaboración de informes</h2>
+                <h3>Elaboración de informes</h3>
                 <p>Presentación de informes ejecutivos detallando el progreso del proyecto, estado actual y próximos
                     pasos.</p>
             </div>
 
             <div class="que-es-lo-que-hacemos-box">
                 <i class="fa-solid fa-code"></i>
-                <h2>Comunicación con los clientes</h2>
+                <h3>Comunicación con los clientes</h3>
                 <p>Trato con los clientes para abordar las distintas situación y resolución de problemas, siendo el
                     intermediario entre los desarrolladores y el cliente.</p>
             </div>
@@ -300,7 +269,7 @@
 
     <!-- FORMACIÓN ACADÉMICA Y CERTIFICACIONES -->
 
-    <h1 id="formacion-academica-certificaciones">Formación académica</h1>
+    <h2 id="formacion-academica-certificaciones">Formación académica</h2>
 
     <div class="formacion-academica-container">
         <div class="formacion-academica">
@@ -319,7 +288,7 @@
         </div>
 
         <div>
-            <img src="/multimedia/imagenes/study.png">
+            <img src="multimedia/imagenes/study.png" alt="formación académica ilustración">
         </div>
 
         <div class="formacion-academica">
@@ -336,69 +305,74 @@
                 <dd>2013 - 2018</dd>
             </dl>
         </div>
-
     </div>
 
 
-    <h1>Certificaciones</h1>
+    <h2>Certificaciones</h2>
 
-    <div class="certificaciones-container">
-        <div class="certificaciones">
-            <div>
-                <a href="/multimedia/imagenes/certificado-ccna.png" target="_blank">
-                    <img src="/multimedia/imagenes/certificado-ccna.png">
-                    <h3>CCNA - Curso en redes</h3>
-                </a>
+    <section id="certificaciones" class="certificaciones-container">
+
+        <div class="certificaciones-container">
+            <div class="certificaciones">
+                <div>
+                    <a href="multimedia/imagenes/certificado-ccna.png" target="_blank">
+                        <img src="multimedia/imagenes/certificado-ccna.png" alt="Curso en redes - Federico Rey">
+                        <h3>CCNA - Curso en redes</h3>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="multimedia/imagenes/certificado-ejemplo.jpg" target="_blank">
+                        <img src="multimedia/imagenes/certificado-ejemplo.jpg" alt="First Certificate - Federico Rey">
+                        <h3>First Certificate</h3>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="multimedia/imagenes/certificado-java.png" target="_blank">
+                        <img src="multimedia/imagenes/certificado-java.png" alt="Diplomatura en Java - Federico Rey">
+                        <h3>Diplomatura en Java</h3>
+                    </a>
+                </div>
             </div>
 
-            <div>
-                <a href="/multimedia/imagenes/certificado-ejemplo.jpg" target="_blank">
-                    <img src="/multimedia/imagenes/certificado-ejemplo.jpg">
-                    <h3>First Certificate</h3>
-                </a>
-            </div>
+            <div class="certificaciones">
+                <div>
+                    <a href="multimedia/imagenes/certificados-gestion-de-proyectos.png" target="_blank">
+                        <img src="multimedia/imagenes/certificados-gestion-de-proyectos.png"
+                            alt="Gestión de proyectos - Franco Sánchez Agüero">
+                        <h3>Gestión de Proyectos</h3>
+                    </a>
+                </div>
 
-            <div>
-                <a href="/multimedia/imagenes/certificado-java.png" target="_blank">
-                    <img src="/multimedia/imagenes/certificado-java.png">
-                    <h3>Diplomatura en Java</h3>
-                </a>
+                <div>
+                    <a href="multimedia/imagenes/certificados-ms-project.png" target="_blank">
+                        <img src="multimedia/imagenes/certificados-ms-project.png"
+                            alt="Microsoft Project - Franco Sánchez Agüero">
+                        <h3>Microsoft Project</h3>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="multimedia/imagenes/certificados-analisis-de-datos-proyectos.png" target="_blank">
+                        <img src="multimedia/imagenes/certificados-analisis-de-datos-proyectos.png"
+                            alt="Análisis de datos - Franco Sánchez Agüero">
+                        <h3>Análisis de datos</h3>
+                    </a>
+                </div>
             </div>
         </div>
-
-        <div class="certificaciones">
-            <div>
-                <a href="/multimedia/imagenes/certificados-gestion-de-proyectos.png" target="_blank">
-                    <img src="/multimedia/imagenes/certificados-gestion-de-proyectos.png">
-                    <h3>Gestión de Proyectos</h3>
-                </a>
-            </div>
-
-            <div>
-                <a href="/multimedia/imagenes/certificados-ms-project.png" target="_blank">
-                    <img src="/multimedia/imagenes/certificados-ms-project.png">
-                    <h3>Microsoft Project</h3>
-                </a>
-            </div>
-
-            <div>
-                <a href="/multimedia/imagenes/certificados-analisis-de-datos-proyectos.png" target="_blank">
-                    <img src="/multimedia/imagenes/certificados-analisis-de-datos-proyectos.png">
-                    <h3>Análisis de datos</h3>
-                </a>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <hr>
 
     <!-- HABILIDADES E INTERESES -->
 
-    <h1 id="habilidades-e-intereses">Habilidades</h1>
+    <h2 id="habilidades-e-intereses-titulo">Habilidades</h2>
 
-    <div class="habilidades-container">
+    <section id="habilidades-e-intereses" class="habilidades-container">
 
-        <div class="habilidades tecnológicas">
+        <div class="habilidades bloque">
             <ul type="none">
                 <li>
                     Python
@@ -417,15 +391,9 @@
                     <progress value="50" max="100"></progress>
                 </li>
             </ul>
-
-            <div>
-                <img src="/multimedia/imagenes/skills2.png">
-            </div>
         </div>
 
-        <div class="divider"></div>
-
-        <div class="habilidades">
+        <div class="habilidades bloque">
             <ul type="none">
                 <li>
                     Liderazgo
@@ -444,45 +412,53 @@
                     <progress value="90" max="100"></progress>
                 </li>
             </ul>
-            <div>
-                <img src="/multimedia/imagenes/skills.png">
-            </div>
         </div>
 
-    </div>
+    </section>
 
 
-    <h1>Intereses</h1>
-    <div class="intereses-container">
+    <!-- INTERESES -->
+
+    <section id="intereses-federico" class="intereses-container">
         <div class="intereses">
+            <h2>Intereses de Federico</h2>
+            <p>Me interesa aprender cada vez más sobre nuevas tecnologías e integrar mis conocimientos. Estos son
+                algunos de mis intereses:</p>
             <ul>
-                <li>Artificial Inteligence</li>
-                <li>Analisis de datos</li>
-                <li>Automation</li>
-                <li>Seguridad de la Información</li>
+                <li><i class="fa-solid fa-diagram-project"></i>Conocer más sobre Inteligencia Artificial</li>
+                <li><i class="fas fa-database"></i>Aprender sobre Análisis de Datos</li>
+                <li><i class="fas fa-code"></i>Mejorar en el desarrollo de Automation</li>
+                <li><i class="fa-solid fa-shield"></i> Seguridad de la Información</li>
             </ul>
         </div>
-
-        <div>
-            <img src="/multimedia/imagenes/intereses.png">
+        <div class="intereses-imagen">
+            <img src="multimedia/imagenes/intereses-fede.png" alt="Imagen representativa de los intereses de Federico">
         </div>
+    </section>
 
+    <section id="intereses-franco" class="intereses-container">
         <div class="intereses">
+            <h2>Intereses de Franco</h2>
+            <p>Tengo ganas de mejorar continuamente y me gusta explorar y aprender cosas nuevas. Estos son mis intereses
+                donde me gustaria profundizar:</p>
             <ul>
-                <li>Mejorar en la Gestión de equipos</li>
-                <li>Perfeccionar habilidades blandas</li>
-                <li>Idiomas</li>
-                <li>Aprender sobre Desarrollo Web y Mobile</li>
-                <li>Nuevas tecnologías</li>
+                <li><i class="fas fa-chart-line"></i>Perfeccionar habilidades blandasMejorar la Gestión de Equipos</li>
+                <li><i class="fas fa-users"></i>Mejorar la Gestión de Equipos</li>
+                <li><i class="fa-solid fa-desktop"></i> Aprender sobre Desarrollo tanto Web como Mobile</li>
+                <li><i class="fas fa-globe"></i>Aprender nuevos idiomas</li>
+                <li><i class="fa-solid fa-cloud"></i>Conocer nuevas tecnologías</li>
             </ul>
         </div>
-    </div>
+        <div class="intereses-imagen">
+            <img src="multimedia/imagenes/intereses-franco.png" alt="Imagen representativa de los intereses de Franco">
+        </div>
+    </section>
 
     <hr>
 
     <!-- CONTACTO -->
     <footer>
-        <h1 id="contacto">Contacto</h1>
+        <h2 id="contacto">Contacto</h2>
         <div class="contacto-container">
             <div class="contacto">
                 <p>Federico Rey</p>

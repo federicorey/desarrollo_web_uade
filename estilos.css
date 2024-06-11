@@ -12,18 +12,29 @@ body {
 
 .bold {
     font-weight: bold;
-  }  
+  }
 
 h1 {
+    margin: 0 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
     color: #ff8b4d;
     text-align: center;
     font-size: 48px;
 }
 
+
 #saludo{
     color: #ff8b4d;
     font-size: 28px;
     padding-left: 5px;
+}
+
+#saludo span{ 
+    font-weight: bold;
 }
 
 h3 {
@@ -32,12 +43,6 @@ h3 {
 
 p {
     color: white;
-}
-
-#indice {
-    margin: 0 20px;
-    color: white;
-    margin-bottom: 20px;
 }
 
 nav {
@@ -69,11 +74,13 @@ nav ul li a {
     padding: 10px;
     text-align: center;
     background-color: transparent;
+    border-radius: 20px;
     transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
     background-color: #61b0f025;
+    border-radius: 20px;
 }
 
 #parrafo-sobre-mi {
@@ -145,62 +152,78 @@ nav ul li a:hover {
     border-color: #004080;
 }
 
-.sobre-nosotros-container {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-    gap: 50px;
-    padding: 25px;
-}
-
-.sobre-nosotros-alineacion {
-    flex-basis: 50%;
-}
-
-.divider {
-    border-left: 2px;
-    width: 2px;
-    height: 400px;
-    margin: 10px;
-    align-items: stretch;
-    background-color: rgb(138, 131, 131);
-}
-
-.sobre-nosotros-encabezado {
+#sobre-nosotros-titulo {
     text-align: center;
+    font-size: 32px;
+    color: #ff8b4d;
+    margin-bottom: 20px;
 }
 
-.sobre-nosotros-encabezado img {
-    width: 250px;
-    border-radius: 100px;
+.sobre-nosotros-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.sobre-nosotros-cuadro {
+.sobre-nosotros-bloque {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #61b0f01f;
+    border-radius: 50px;
+    max-width: 45%;
+}
+
+.sobre-nosotros {
+    text-align: center;
+    width: 100%;
+}
+
+.sobre-nosotros ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    align-items: center;
 }
 
-.info-fila {
+.sobre-nosotros li {
     display: flex;
-    gap: 25px;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #f0f0f0;
+    width: 100%;
+    max-width: 500px;
 }
 
-.info-bloque {
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.sobre-nosotros li i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ff8b4d;
+}
+
+.sobre-nosotros-imagen {
     text-align: center;
-    width: 50%;
-    border-radius: 10px;
+    margin-top: 10px;
 }
 
-.info-bloque i {
-    margin-bottom: 10px;
-    font-size: 22px;
-    display: block;
+.sobre-nosotros-imagen img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(39, 39, 39, 0.2);
 }
+
 
 .desarrollo-profesional-container {
     display: flex;
@@ -226,6 +249,8 @@ nav ul li a:hover {
 }
 
 .experiencia-laboral-container {
+    background-color: #61b0f01f;
+    border-radius: 20px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -286,6 +311,9 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     color: #CFD8DC;
+    background-color: #61b0f01f;
+    margin: 10px;
+    border-radius: 20px;
 }
 
 .formacion-academica {
@@ -332,11 +360,9 @@ nav ul li a:hover {
     color: white;
     padding: 40px;
     width: 50%;
-}
-
-.habilidades-container img {
-    width: 250px;
-    height: 250px;
+    background-color: #61b0f01f;
+    border-radius: 50px;
+    margin: 10px;
 }
 
 progress {
@@ -356,34 +382,59 @@ progress::-webkit-progress-value {
 
 .intereses-container {
     display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    align-items: center;
-    text-align: center;
-}
-
-.intereses-container img {
-    width: 350px;
-    height: 350px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #61b0f025;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .intereses {
-    color: white;
-    text-align: left;
-    margin: 20px;
-    padding: 20px;
+    flex: 1;
+    padding-right: 20px;
 }
 
-ul {
+.intereses p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+}
+
+.intereses ul {
+    list-style: none;
     padding: 0;
 }
 
-li {
-    margin-bottom: 10px;
+.intereses li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #f0f0f0;
 }
+
+.intereses li i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #61b0f0c0;
+}
+
+.intereses-imagen {
+    flex: 1;
+    text-align: center;
+}
+
+.intereses-imagen img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
 
 .contacto-container {
     display: flex;
