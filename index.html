@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -49,7 +50,7 @@
                 </div>
                 <p id="title-name">Federico Rey</p>
                 <p id="title-job">Fullstack Developer</p>
-                <div class="boton-descargar">
+                <div class="boton">
                     <a href="multimedia/Federico Rey_CV.pdf" download="CV-Federico Rey">Descargar CV </a>
                 </div>
             </div>
@@ -61,7 +62,7 @@
                 </div>
                 <p id="title-name">Franco Sánchez Agüero</p>
                 <p id="title-job">Project Manager</p>
-                <div class="boton-descargar">
+                <div class="boton">
                     <a href="multimedia/CV - Franco Sánchez Agüero.pdf" download="CV-Franco Sanchez Agüero">Descargar
                         CV </a>
                 </div>
@@ -80,10 +81,10 @@
         <div class="sobre-nosotros-bloque">
             <div class="sobre-nosotros">
                 <ul>
-                    <li><i class="fas fa-users"></i> Tengo 25 años.</li>
-                    <li><i class="fas fa-lightbulb"></i> Vivo en Flores, Capital Federal.</li>
-                    <li><i class="fas fa-chart-line"></i> En mi tiempo libre me gusta mirar series y películas.</li>
-                    <li><i class="fas fa-heart"></i> Me encuentro aprendiendo sobre Inteligencia Artificial.</li>
+                    <li><i class="fa-solid fa-id-card"></i> Tengo 25 años.</li>
+                    <li><i class="fa-solid fa-map-location-dot"></i> Vivo en Flores, Capital Federal.</li>
+                    <li><i class="fa-solid fa-couch"></i> En mi tiempo libre me gusta mirar series y películas.</li>
+                    <li><i class="fa-solid fa-laptop-code"></i> Me encuentro aprendiendo sobre Inteligencia Artificial.</li>
                 </ul>
                 <div class="sobre-nosotros-imagen">
                     <img src="multimedia/imagenes/sobre-mi-Fede.jpeg" alt="Imagen representativa de Federico">
@@ -94,10 +95,10 @@
         <div class="sobre-nosotros-bloque">
             <div class="sobre-nosotros">
                 <ul>
-                    <li><i class="fas fa-users"></i> Tengo 23 años.</li>
-                    <li><i class="fas fa-lightbulb"></i> Vivo en Banfield, Buenos Aires.</li>
-                    <li><i class="fas fa-chart-line"></i> En mi tiempo libre me gusta conocer nuevos lugares.</li>
-                    <li><i class="fas fa-heart"></i> Busco aprender nuevas tecnologías y mejorar continuamente.</li>
+                    <li><i class="fa-solid fa-id-card"></i> Tengo 23 años.</li>
+                    <li><i class="fa-solid fa-map-location-dot"></i> Vivo en Banfield, Buenos Aires.</li>
+                    <li><i class="fa-solid fa-couch"></i> En mi tiempo libre me gusta conocer nuevos lugares.</li>
+                    <li><i class="fa-solid fa-laptop-code"></i> Busco aprender nuevas tecnologías y mejorar continuamente.</li>
                 </ul>
                 <div class="sobre-nosotros-imagen">
                     <img src="multimedia/imagenes/sobre-mi-franco-img.jpg" alt="Imagen representativa de Franco">
@@ -310,39 +311,49 @@
 
     <h2>Certificaciones</h2>
     <section id="certificaciones" class="certificaciones-container">
-        <div class="certificaciones-container">
+        <div>
             <h3>Federico Rey</h3>
             <div class="certificaciones" id="certificados-carrusel1">
                 <div class="certificado">
-                    <img src="multimedia/imagenes/certificado-ccna.png" alt="Certificado 1">
+                    <img src="multimedia/imagenes/certificado-ccna.png" alt="Certificado CCNA - Federico Rey">
                 </div>
                 <div class="certificado">
-                    <img src="multimedia/imagenes/certificado-java.png" alt="Certificado 2">
+                    <img src="multimedia/imagenes/certificado-java.png" alt="Certificado Java - Federico Rey">
                 </div>
                 <div class="certificado">
-                    <img src="multimedia/imagenes/certificado-ejemplo.jpg" alt="Certificado 3">
+                    <img src="multimedia/imagenes/certificado-ejemplo.jpg" alt="Certificado 3 - Federico Rey">
                 </div>
             </div>
-            <button class="boton anterior" data-carrusel="certificados-carrusel1">Anterior</button>
-            <button class="boton siguiente" data-carrusel="certificados-carrusel1">Siguiente</button>
+            <div class="botones">
+                <button class="boton" data-carrusel="certificados-carrusel1"><i
+                        class="fa-solid fa-arrow-left"></i></button>
+                <button class="boton" data-carrusel="certificados-carrusel1"><i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </div>
         </div>
-        <div class="certificaciones-container">
-            <h3>Franco Sanchez</h3>
+
+        <div>
+            <h3>Franco Sánchez Agüero</h3>
             <div class="certificaciones" id="certificados-carrusel2">
                 <div class="certificado">
-                    <img src="multimedia/imagenes/certificados-gestion-de-proyectos.png" alt="Certificado 1">
+                    <img src="multimedia/imagenes/certificados-gestion-de-proyectos.png" alt="Certificado Gestión de Proyectos - Franco Sánchez Aguero">
                 </div>
                 <div class="certificado">
-                    <img src="multimedia/imagenes/certificados-ms-project.png" alt="Certificado 2">
+                    <img src="multimedia/imagenes/certificados-ms-project.png" alt="Certificado Microsoft Project - Franco Sánchez Aguero">
                 </div>
                 <div class="certificado">
-                    <img src="multimedia/imagenes/certificados-analisis-de-datos-proyectos.png" alt="Certificado 3">
+                    <img src="multimedia/imagenes/certificados-analisis-de-datos-proyectos.png" alt="Certificado Análisis de Datos  - Franco Sánchez Aguero">
                 </div>
             </div>
-            <button class="boton anterior" data-carrusel="certificados-carrusel2">Anterior</button>
-            <button class="boton siguiente" data-carrusel="certificados-carrusel2">Siguiente</button>
+            <div class="botones">
+                <button class="boton" data-carrusel="certificados-carrusel2"><i
+                        class="fa-solid fa-arrow-left"></i></button>
+                <button class="boton" data-carrusel="certificados-carrusel2"><i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </div>
         </div>
     </section>
+
     <hr>
     <script src="script.js"></script>
 

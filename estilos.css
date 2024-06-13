@@ -127,7 +127,7 @@ nav ul li a:hover {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.616);
 }
  
-.boton-descargar {
+.boton {
     display: inline-block;
     padding: 10px 20px;
     font-size: 22px;
@@ -142,12 +142,12 @@ nav ul li a:hover {
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
  
-.boton-descargar:hover {
+.boton:hover {
     background-color: #0056b3;
     border-color: #0056b3;
 }
  
-.boton-descargar:active {
+.boton:active {
     background-color: #004080;
     border-color: #004080;
 }
@@ -250,18 +250,18 @@ nav ul li a:hover {
 
 .experiencia-laboral-container {
     background-color: #61b0f01f;
-    border-radius: 20px;
+    border-radius: 50px;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 75%;
+    max-width: 90%;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .experiencia-laboral {
-    padding: 10px;
-    width: 50%;
+    width: 100%;
 }
 
 .experiencia-laboral-container img {
@@ -332,9 +332,22 @@ nav ul li a:hover {
     position: relative;
     overflow: hidden;
     width: 100%;
-    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    max-width: 800px;
     margin: 0 auto;
 }
+
+.certificaciones-container > div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certificaciones-container .botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
 
 .certificaciones {
     display: flex;
@@ -350,11 +363,10 @@ nav ul li a:hover {
 
 .certificado img {
     width: 100%;
-    max-width: 100%; 
-    /*height: auto;  Mantiene la proporción de la imagen */
+    max-width: 100%;
     width: 750px;
     height: 600px;
-    object-fit: contain; /* Asegura que la imagen se ajuste bien dentro de su contenedor */
+    object-fit: contain;
 }
 
 .habilidades-container {
@@ -402,7 +414,7 @@ progress::-webkit-progress-value {
 
 .intereses {
     flex: 1;
-    padding-right: 20px;
+    margin-left: 80px;
 }
 
 .intereses p {
