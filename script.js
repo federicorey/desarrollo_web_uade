@@ -33,6 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    setInterval(() => mostrarCertificado(carruseles['certificados-carrusel1'], 1), 3000); // Carrusel 1 cambia cada 3 segundos
-    setInterval(() => mostrarCertificado(carruseles['certificados-carrusel2'], 1), 5000); // Carrusel 2 cambia cada 5 segundos
+    setInterval(() => mostrarCertificado(carruseles['certificados-carrusel1'], 1), 5000); // Carrusel 1 cambia cada 3 segundos
+    setInterval(() => mostrarCertificado(carruseles['certificados-carrusel2'], 1), 3000); // Carrusel 2 cambia cada 5 segundos
 });
