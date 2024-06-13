@@ -329,25 +329,32 @@ nav ul li a:hover {
 }
 
 .certificaciones-container {
-    display: flex;
-    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto;
 }
 
 .certificaciones {
     display: flex;
-    width: 50%;
-    flex-direction: column;
-    justify-content: center;
+    transition: transform 0.5s ease-in-out;
 }
 
-.certificaciones>div {
-    margin: 40px;
+.certificado {
+    min-width: 100%;
+    box-sizing: border-box;
     text-align: center;
+    padding: 10px; 
 }
 
-.certificaciones img {
-    width: 450px;
-    height: 300px;
+.certificado img {
+    width: 100%;
+    max-width: 100%; 
+    /*height: auto;  Mantiene la proporción de la imagen */
+    width: 750px;
+    height: 600px;
+    object-fit: contain; /* Asegura que la imagen se ajuste bien dentro de su contenedor */
 }
 
 .habilidades-container {
